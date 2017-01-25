@@ -4,6 +4,8 @@ QT += qml quick
 CONFIG += c++11
 
 include(libtiled.pri)
+include(Box2D.pri)
+include(lua.pri)
 
 SOURCES += main.cpp
 
